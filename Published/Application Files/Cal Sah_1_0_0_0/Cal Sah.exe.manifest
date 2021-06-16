@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Cal Sah.exe" version="1.0.0.0" publicKeyToken="8503cb3b5e4d2aef" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Cal Sah" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Cal Sah.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cal Sah.exe" size="13216">
+      <assemblyIdentity name="Cal Sah" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VMr2H43mycTmMj2xhJ+vCGUFSS8E0Pb8QP3dgGrmNMg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Cal Sah.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Dan\Dan PC" issuerKeyHash="82c4a8687655d0287e7c8eb28bbbe3eb6094bd2b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gejqHTNI/W0+7ejaW8o+tqGR3z7FBxqFA9PpvJE1QM4=</DigestValue></Reference></SignedInfo><SignatureValue>HMY1Fzzalz0oIzP9wNJWa08GMc+Z+8ApvntXKRZXVP1KBe44FZb4RAvJSgQRWDxgYwFFMuWmM4OWabeUBcgcpFcWFWupGdOAYcjJqhpKtbP06umz8+ZUMIK7WbCxa8MqBAoLvfb7in+xduQSAp+qmku4m2lEQSuHcNXSIX1iz28=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>osp+2uJg2QXOGySBeuukULdh1aNrDxs9tEh7Eyx/mzIJrbXSh/E4QNorjNG4poq3pWLmTZGbH1/sW+6edT1wBhpN7U+SKztHF9Ji/e4OQkU7FWbh0og2c17peznMeo8bOvJdrrwuDhGyWyr26VZazsDMIhwCxY46m37gioMLuqk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce403591bce9d303851a07c53edf91a1b63eca5bdae8ed3e6dfd48331deae881" Description="" Url=""><as:assemblyIdentity name="Cal Sah.exe" version="1.0.0.0" publicKeyToken="8503cb3b5e4d2aef" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Dan\Dan PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BiPVQGXpihPz7l51rxcXjYok3rZrg8r3oZLQPinb/Cc=</DigestValue></Reference></SignedInfo><SignatureValue>SalTqONEddo1msQX5mo6ktmgkqBVDhZz4CF3MaWVqTlDtoJaOyk6YovheSfpoFAbqRbF09npYgf6R18EE1m2nxkPZAPaA+k+YNm4WIBLAs8vinTTRUR4T57wMEg2bfxlKTkBtYhPMhFJ5DmzbvgW7ectgoDYce/nveGDuNH2+GU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>osp+2uJg2QXOGySBeuukULdh1aNrDxs9tEh7Eyx/mzIJrbXSh/E4QNorjNG4poq3pWLmTZGbH1/sW+6edT1wBhpN7U+SKztHF9Ji/e4OQkU7FWbh0og2c17peznMeo8bOvJdrrwuDhGyWyr26VZazsDMIhwCxY46m37gioMLuqk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQG/VUrAFTfYhCkKE52ElPlDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQARABhAG4AXABEAGEAbgAgAFAAQzAeFw0xODA1MDMxNzMxMTZaFw0xOTA1MDMyMzMxMTZaMB8xHTAbBgNVBAMeFABEAGEAbgBcAEQAYQBuACAAUABDMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiyn7a4mDZBc4bJIF666RQt2HVo2sPGz20SHsTLH+bMgmttdKH8ThA2iuM0bimirelYuZNkZsfX+xb7p51PXAGGk3tT5IrO0cX0mL97g5CRTsVZuHSiDZzXul7Ocx6jxs68l2uvC4OEbJbKvbpVlrOwMwiHALFjjqbfuCKgwu6qQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEB4koQeGhiZaOKJNs3X4mF5FbffHSODSm0hGeU3Y/xPvio2lV42gzod3cuqdkLVN90T6bLfMU2fkhGzsgC43R/6+noKv/evlNxriAGep50rnGyI2GJStg+kaaTFdFWP7MzmCsN0lmPxIPwY83tqx59WV2z/2g4gin2cjg7IDYOm</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
